@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    margin: 40px;
+}
+
+p, h4 {
+    margin: 10px;
+}
+
+.result {
+    height: 100px;
+    padding: 40px;
+}
+
+.opacity {
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    background-color: rgba(216, 228, 216, 0.4);
+}
+
+.code {
+    font-weight: bold;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.flex {
+    justify-content: space-between;
+}
+
+.flex, #flex {
+    display: flex;
+}
+
+#flex {
+    flex-direction: column; 
+    width: 50%;
+    margin: auto;
+}
+
+input {
+    height: 25px;
+}
+
+input, select {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+select, button{
+    height: 31px; 
+}
+
+label {
+    text-align: left;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.span {
+    color: red;
+    text-align: right;
+}
+
+@media screen and (max-width: 765px) {
+    #grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #grid {
+        grid-template-columns: 1fr;
+    }
+    #flex {
+        width: 80%; 
+    }
+}

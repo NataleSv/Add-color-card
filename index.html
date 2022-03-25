@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>31.03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="" method="GET" name="myForm" id="flex">
+        <h3>Create new color</h3>
+
+        <div class="flex">
+            <label for="Color">Color:</label> 
+            <div class="span"></div>
+        </div>
+        <input type="text" id="Color" required>
+        
+        <label for="Type">Type:</label>
+        <select id="Type">
+            <option>RGB</option>
+            <option>RGBA</option>
+            <option>HEX</option>
+        </select>
+        <div class="flex">
+            <label for="Code">Code:</label>
+            <div class="span"></div>
+        </div>
+        
+        <input type="text" id="Code" required>
+        
+        <button type="submit">Save</button>
+    </form>
+
+    <h3>All colors</h3>
+    <div id="grid">
+    </div>
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
