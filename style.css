@@ -1,15 +1,28 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding-top: 10vh;
     text-align: center;
-    margin: 40px;
+    background: linear-gradient(45deg, #f5e0e0, #d3d3f7);
+    min-height: 100vh;
+}
+h3 {
+    font-family: 'Inspiration', cursive;
+    font-size: 25px;
 }
 
 p, h4 {
     margin: 10px;
+
 }
 
 .result {
-    height: 100px;
-    padding: 40px;
+
+    padding: 20px;
 }
 
 .opacity {
@@ -56,6 +69,7 @@ select, button{
 
 label {
     text-align: left;
+    font-family: 'Caveat', cursive;
 }
 
 #grid {
